@@ -4,11 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Face Detection API</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <video id="video" height="900" width="900" autoplay muted></video>
-
+    <div class="container">
+      <h1>face-api.js</h1>
+      <p>Use the Chrome browser</p>
+      <p>Ensure the webcam is on</p>
+      <div id="video-container" class="container">
+        <video id="video" height="auto" width="800" autoplay muted></video>
+      </div>
+    </div>
+    
     <script src="./js/face-api.min.js"></script>
     <script src="./js/main.js"></script>
   </body>
